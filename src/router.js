@@ -1,23 +1,35 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
+import VueRouter from 'vue-router'
+import App from './App.vue'
+import goods from './components/goods/goods'
+import ratings from './components/ratings/ratings'
+import seller from './components/seller/seller'
+import vHeader from './components/header/header'
 
-Vue.use(Router)
-
-export default new Router({
+Vue.use(VueRouter)
+Vue.component('vHeader', vHeader)
+export default new VueRouter({
+  linkActiveClass:'active',
   routes: [
+    // 动态路径参数 以冒号开头
     {
       path: '/',
-      name: 'home',
-      component: Home
+      redirect: '/goods'
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      path: '/goods',
+      name: 'goods',
+      component: goods
+    },
+    {
+      path: '/ratings',
+      name: 'ratings',
+      component: ratings
+    },
+    {
+      path: '/seller',
+      name: 'seller',
+      component: seller
     }
   ]
 })
