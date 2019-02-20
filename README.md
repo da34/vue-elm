@@ -2,7 +2,7 @@
 
 ### 项目预览
 * [在线预览点击我](https://da34.github.io/vue-elm/index.html)
-* [手机扫二维码](https://s2.ax1x.com/2019/02/20/k2vOz9.png)
+* 手机扫二维码:https://s2.ax1x.com/2019/02/20/k2vOz9.png
 
 ## 安装项目依赖
 ```
