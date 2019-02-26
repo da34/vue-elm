@@ -17,6 +17,12 @@
  > * vue 
  > * cube-ui(cube-ui 是基于 Vue.js 实现的精致移动端组件库)
  > * vue-cli3
+ 
+* 分支
+ > * meast 没有用ui库 
+ > * next 本项目重构后的源码
+ 
+ 
 
 
 ### 运行项目
