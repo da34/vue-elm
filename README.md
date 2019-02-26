@@ -26,6 +26,7 @@
 
 
 ### 运行项目
+> * (由于使用vue-cli3，请保持node版本在10^)
 ```
  npm install 
  npm run serve
