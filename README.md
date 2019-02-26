@@ -10,9 +10,20 @@
  
 ![二维码]
 
-## 运行项目
+### 项目介绍
+* 技术栈
+ > * vue 
+ > * cube-ui(cube-ui 是基于 Vue.js 实现的精致移动端组件库)
+ > * vue-cli3
+
+
+### 运行项目
 ```
  npm install 
  npm run serve
+ 
 ```
+
+### Thank
+@[ustbhuangyi](http://ustbhuangyi.com)
 
