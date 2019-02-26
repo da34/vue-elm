@@ -26,7 +26,7 @@
  > * 此项目在慕课网学习vue的实战项目,通过了此项目本人对vue的熟练度提高了许多
  > * 
  > * Thank
-  > > [@ustbhuangyi](http://ustbhuangyi.com)
+  >>> [@ustbhuangyi](http://ustbhuangyi.com)
  
  
 
