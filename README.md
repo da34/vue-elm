@@ -22,6 +22,12 @@
  > * meast 没有用ui库 
  > * next 本项目重构后的源码
  
+* 说明
+ > * 此项目在慕课网学习vue的实战项目,通过了此项目本人对vue的熟练度提高了许多
+ > * 
+ > * Thank
+ >>[@ustbhuangyi](http://ustbhuangyi.com)
+ 
  
 
 
@@ -32,7 +38,4 @@
  npm run serve
 ```
 
-### Thank
-
-[@ustbhuangyi](http://ustbhuangyi.com)
 
