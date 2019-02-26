@@ -1,5 +1,6 @@
 # 饿了么移动端商家页
  > 这是一个基于Vue实现的移动端app
+ > 如果您觉得不错，star一下，谢谢!
 
 ### 项目预览
  * [在线预览点击我](http://47.107.78.59/elm/)
@@ -25,5 +26,6 @@
 ```
 
 ### Thank
-@[ustbhuangyi](http://ustbhuangyi.com)
+
+[@ustbhuangyi](http://ustbhuangyi.com)
 
