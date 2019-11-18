@@ -1,12 +1,13 @@
 const path = require('path')
 const webpack = require('webpack')
+const isProd = process.env.NODE_ENV === 'production'
 
 function joint (dir) {
   return path.join(__dirname, dir)
 }
 
 module.exports = {
-  publicPath: '',
+  publicPath: isProd ? '/elm/' : '',
   css: {
     loaderOptions: {
       stylus: {
